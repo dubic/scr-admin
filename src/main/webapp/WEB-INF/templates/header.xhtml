@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:d="http://xmlns.jcp.org/jsf/component"
+
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <style>
+        .header{
+            /*background: #4D9EF8 !important;*/
+            color:#FFF !important;
+        }
+    </style>
+    <header>
+
+        <div class="header navbar navbar-inverse navbar-fixed-top">
+            <!-- BEGIN TOP NAVIGATION BAR -->
+            <div class="header-inner">
+                <!-- BEGIN LOGO -->  
+                <a class="navbar-brand" href="home.jsf">
+                    <!--<img src="assets/img/logo.png" alt="Scribbles" class="img-responsive">-->
+                    Scribbles Admin
+                </a>
+                <!-- END LOGO -->
+
+                <!--<a class="navbar-brand pull-right" data-toggle="modal" data-target="#loginModal" href="#">Login</a>-->
+                <!-- BEGIN TOP NAVIGATION MENU -->
+                
+                    <ul class="nav navbar-nav pull-right">
+                        <!-- BEGIN USER LOGIN DROPDOWN -->
+                        <li class="dropdown user">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-click="dropdown" data-backdrop="static" data-close-others="true">
+                                <!--<h:graphicImage value="" width="29" height="29"/>-->
+                                <h:panelGroup class="username" style="margin-left: 5px">dubem uzuegbu</h:panelGroup>
+                                <i class="icon-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="profile.jsf"><i class="icon-user"></i> My Profile</a></li>
+                                <li><a href="login.html"><i class="icon-key"></i> Log Out</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END USER LOGIN DROPDOWN -->
+                    </ul>
+                
+                <!-- END TOP NAVIGATION MENU -->
+            </div>
+            <!-- END TOP NAVIGATION BAR -->
+        </div>
+        <div class="clearfix"></div>
+    </header>
+</html>
+
